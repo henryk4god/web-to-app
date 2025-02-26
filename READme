@@ -1,0 +1,156 @@
+**Step-by-Step Commits for Backend**
+
+#### **Commit 1: Initialize Backend**
+- **Message**: `feat: Initialize backend with basic Express server`
+- **Description**: Set up the basic structure for the backend using Express.js.
+- **Files Changed**:
+  - `backend/server.js`
+  - `backend/package.json`
+
+```bash
+git add backend/
+git commit -m "feat: Initialize backend with basic Express server"
+```
+
+---
+
+#### **Commit 2: Add CORS and JSON Middleware**
+- **Message**: `feat: Add CORS and JSON middleware`
+- **Description**: Enable CORS and JSON parsing for incoming requests.
+- **Files Changed**:
+  - `backend/server.js`
+
+```bash
+git add backend/server.js
+git commit -m "feat: Add CORS and JSON middleware"
+```
+
+---
+
+#### **Commit 3: Add URL Validation**
+- **Message**: `feat: Add URL validation using Axios`
+- **Description**: Validate the user-provided URL using Axios.
+- **Files Changed**:
+  - `backend/server.js`
+
+```bash
+git add backend/server.js
+git commit -m "feat: Add URL validation using Axios"
+```
+
+---
+
+#### **Commit 4: Add Cordova Project Creation**
+- **Message**: `feat: Add Cordova project creation`
+- **Description**: Create a Cordova project dynamically based on user input.
+- **Files Changed**:
+  - `backend/server.js`
+
+```bash
+git add backend/server.js
+git commit -m "feat: Add Cordova project creation"
+```
+
+---
+
+#### **Commit 5: Add Android Platform**
+- **Message**: `feat: Add Android platform to Cordova project`
+- **Description**: Add the Android platform to the Cordova project.
+- **Files Changed**:
+  - `backend/server.js`
+
+```bash
+git add backend/server.js
+git commit -m "feat: Add Android platform to Cordova project"
+```
+
+---
+
+#### **Commit 6: Modify index.html to Embed Website**
+- **Message**: `feat: Modify index.html to embed user's website`
+- **Description**: Replace the default `index.html` with an iframe embedding the user's website.
+- **Files Changed**:
+  - `backend/server.js`
+
+```bash
+git add backend/server.js
+git commit -m "feat: Modify index.html to embed user's website"
+```
+
+---
+
+#### **Commit 7: Build Cordova App**
+- **Message**: `feat: Build Cordova app for Android`
+- **Description**: Build the Cordova app for the Android platform.
+- **Files Changed**:
+  - `backend/server.js`
+
+```bash
+git add backend/server.js
+git commit -m "feat: Build Cordova app for Android"
+```
+
+---
+
+#### **Commit 8: Zip APK File**
+- **Message**: `feat: Zip APK file for download`
+- **Description**: Zip the generated APK file for easy download.
+- **Files Changed**:
+  - `backend/server.js`
+
+```bash
+git add backend/server.js
+git commit -m "feat: Zip APK file for download"
+```
+
+---
+
+#### **Commit 9: Add Download Endpoint**
+- **Message**: `feat: Add endpoint to download zipped APK`
+- **Description**: Create an endpoint to allow users to download the zipped APK file.
+- **Files Changed**:
+  - `backend/server.js`
+
+```bash
+git add backend/server.js
+git commit -m "feat: Add endpoint to download zipped APK"
+```
+
+---
+
+#### **Commit 10: Finalize Backend**
+- **Message**: `chore: Finalize backend setup`
+- **Description**: Clean up and finalize the backend code.
+- **Files Changed**:
+  - `backend/server.js`
+  - `backend/package.json`
+
+```bash
+git add backend/
+git commit -m "chore: Finalize backend setup"
+```
+
+---
+
+### **Push to GitHub**
+After completing all the commits, push your code to GitHub:
+
+```bash
+git push origin main
+```
+
+---
+
+### **Summary of Commits**
+1. `feat: Initialize backend with basic Express server`
+2. `feat: Add CORS and JSON middleware`
+3. `feat: Add URL validation using Axios`
+4. `feat: Add Cordova project creation`
+5. `feat: Add Android platform to Cordova project`
+6. `feat: Modify index.html to embed user's website`
+7. `feat: Build Cordova app for Android`
+8. `feat: Zip APK file for download`
+9. `feat: Add endpoint to download zipped APK`
+10. `chore: Finalize backend setup`
+
+---
